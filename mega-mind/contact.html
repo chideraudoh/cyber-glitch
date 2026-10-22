@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#09030e">
+    <title>Look Closer — Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main class="hero contact-page" id="contact">
+      <span class="contact-cursor-glow" aria-hidden="true"></span>
+      <div class="hero-copy contact-copy">
+        <a class="brand" href="index.html" aria-label="Look Closer home"><span class="brand-mark">◎</span> LOOK CLOSER</a>
+        <p class="eyebrow contact-eyebrow">GOOD THINGS START WITH A HELLO</p>
+        <h1 class="contact-heading" aria-label="You’ve found the developer. Now make contact."><span class="contact-heading-main" data-final="YOU’VE FOUND THE DEVELOPER.">YOU’VE FOUND THE DEVELOPER.</span><span class="contact-heading-accent" data-final="NOW MAKE CONTACT.">NOW MAKE CONTACT.</span></h1>
+        <p class="intro">For creative projects, collaborations, or just a good conversation, send me a note.</p>
+        <div class="contact-actions">
+          <a class="contact-email contact-eye-target" href="mailto:chideraudoh58@gmail.com"><span aria-hidden="true">✉</span> CHIDERAUDOH58@GMAIL.COM</a>
+          <a class="contact-email contact-whatsapp contact-eye-target" href="https://wa.me/2349012259258" target="_blank" rel="noreferrer"><span aria-hidden="true">✆</span> WHATSAPP</a>
+        </div>
+
+        <form class="contact-form" novalidate>
+          <div class="contact-form-fields">
+            <label>Name<input name="name" type="text" autocomplete="name" placeholder="Your name" required></label>
+            <label>Email<input name="email" type="email" autocomplete="email" placeholder="you@example.com" required></label>
+          </div>
+          <label class="contact-message-label">Message<textarea name="message" rows="3" placeholder="What’s on your mind?" required></textarea></label>
+          <div class="contact-form-actions">
+            <button class="contact-submit contact-whatsapp contact-eye-target" type="submit" name="channel" value="whatsapp">Send via WhatsApp</button>
+            <button class="contact-submit contact-gmail contact-eye-target" type="submit" name="channel" value="gmail">Send via Gmail</button>
+          </div>
+          <p class="contact-form-status" role="status" aria-live="polite"></p>
+        </form>
+
+        <nav class="main-nav" aria-label="Main navigation">
+          <a class="nav-link" href="index.html#home"><span class="nav-icon" aria-hidden="true">⌂</span><span>Home</span><span class="nav-arrow" aria-hidden="true">↗</span></a>
+          <a class="nav-link" href="about.html"><span class="nav-icon" aria-hidden="true">◌</span><span>About</span><span class="nav-arrow" aria-hidden="true">↗</span></a>
+          <a class="nav-link active" href="contact.html" aria-current="page"><span class="nav-icon" aria-hidden="true">✉</span><span>Contact</span><span class="nav-arrow" aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+
+      <figure class="portrait contact-portrait" role="button" tabindex="0" aria-pressed="false" aria-label="Interactive character. The eyes follow your pointer; click to toggle glowing eyes.">
+        <img src="new about.jpeg" alt="Illustrated character with wild dark hair and a black hoodie">
+        <span class="contact-eye-glow contact-eye-glow-left" aria-hidden="true"></span>
+        <span class="contact-eye-glow contact-eye-glow-right" aria-hidden="true"></span>
+        <span class="contact-eye contact-eye-left" aria-hidden="true"></span>
+        <span class="contact-eye contact-eye-right" aria-hidden="true"></span>
+        <span class="contact-lid contact-lid-left" aria-hidden="true"></span>
+        <span class="contact-lid contact-lid-right" aria-hidden="true"></span>
+        <span class="contact-see-you" aria-live="polite">I SEE YOU</span>
+        <span class="portrait-tag"><span class="tag-beacon"></span> SUBJECT <b>003</b></span>
+        <figcaption><span class="status-dot"></span> SAY HELLO <span class="caption-line"></span> 03 / 03</figcaption>
+      </figure>
+
+      <a class="scroll-cue" href="index.html#home"><span>BACK TO HOME</span><span class="scroll-line"></span><span aria-hidden="true">↗</span></a>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
